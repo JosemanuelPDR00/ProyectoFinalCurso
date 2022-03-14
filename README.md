@@ -20,26 +20,37 @@ La idea general es aparte de los dos apartados orientativos, poder crear una tab
 
 
 ### PLANIFICACION
-
+.
 #### GANTT
-
+https://drive.google.com/file/d/1bJ-pPmewWZ3tGbvCen56F3yixMP_bSy9/view?usp=sharing
 
 #### Ciclo de desarrollo (Kamban)
+Voy a utilizar la filosofía Kanban, con la que estructuraré las tareas de forma eficiente, ya que de esta manera tendré la ventaja de no trabajar de manera innecesaria, y acorto los tiempos de producción.
 
-
-#### ANALISIS SOFTWARE
-
+### ANALISIS SOFTWARE
+.
 #### Requisitos funcionales
-
+Los requisitos funcionales de la aplicacion web son:
+  - Registro o inicio de sesion de usuario.
+  - Listado de ejercicios.
+  - Herramientas utiles para usuarios, como por ejemplo:
+    - Perdida de calorias.
+    - Calculo de masa corporal.
+    - Calculo de calorias a ingerir para conseguir objetivo.
 
 #### Requisitos NO funcionales
-
+Los requerimientos NO funcionales de la aplicacion web son:
+  - Fiabilidad.
+  - Seguridad de los datos personales.
+  - Fácil de mantener la aplicacion.
+  - Fácil manejo de la aplicacion para el usurio.
+  - Escalabilidad.
 
 #### Caso de uso
 
 
 ### DISEÑO LOGICO
-
+.
 #### Arquitectura / Patron
 
 
@@ -53,7 +64,7 @@ La idea general es aparte de los dos apartados orientativos, poder crear una tab
 
 
 ### DISEÑO DE LA PAGINA
-
+.
 #### Gama cromatica
 
 
@@ -67,7 +78,7 @@ La idea general es aparte de los dos apartados orientativos, poder crear una tab
 
 
 ### IMPLEMENTACION
-
+.
 #### Aspectos mas relevantes
 
 
