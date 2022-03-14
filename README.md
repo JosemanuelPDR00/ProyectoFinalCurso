@@ -20,17 +20,18 @@ La idea general es aparte de los dos apartados orientativos, poder crear una tab
 
 
 ### PLANIFICACION
-
+.
 #### GANTT
+https://drive.google.com/file/d/1bJ-pPmewWZ3tGbvCen56F3yixMP_bSy9/view?usp=sharing
 
+#### Ciclo de desarrollo
+Voy a utilizar la filosofía Kanban, con la que estructuraré las tareas, ya que de esta manera tendré la ventaja de no trabajar de manera innecesaria, y reduzco los tiempos de produccion.
 
-#### Ciclo de desarrollo (Kamban)
-
-
-#### ANALISIS SOFTWARE
-
+### ANALISIS SOFTWARE
+.
 #### Requisitos funcionales
-
+Los requisitos funcionales de la aplicacion web, son:
+  -
 
 #### Requisitos NO funcionales
 
@@ -39,7 +40,7 @@ La idea general es aparte de los dos apartados orientativos, poder crear una tab
 
 
 ### DISEÑO LOGICO
-
+.
 #### Arquitectura / Patron
 
 
@@ -53,7 +54,7 @@ La idea general es aparte de los dos apartados orientativos, poder crear una tab
 
 
 ### DISEÑO DE LA PAGINA
-
+.
 #### Gama cromatica
 
 
@@ -67,7 +68,7 @@ La idea general es aparte de los dos apartados orientativos, poder crear una tab
 
 
 ### IMPLEMENTACION
-
+.
 #### Aspectos mas relevantes
 
 
