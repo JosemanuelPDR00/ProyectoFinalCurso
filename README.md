@@ -52,7 +52,7 @@ Los requerimientos NO funcionales de la aplicacion web son:
 ### DISEÑO LOGICO
 .
 #### Arquitectura / Patron
-
+La arquitectura que se ha usado en el proyecto, va a ser Modelo-Vista-Controlador, ya que es la arquitectura que mejor se estructurar el proyecto, aparte de ser de las formas mas comunes de uso en cualquier proyecto.
 
 
 #### Diagrama de clases
