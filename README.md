@@ -56,7 +56,7 @@ La arquitectura que se ha usado en el proyecto, va a ser Modelo-Vista-Controlado
 
 
 #### Diagrama de clases
-
+https://drive.google.com/file/d/1ZKadwDpk31ptKol3U4gZM5agb1xWnmjX/view?usp=sharing
 
 
 #### Modelo Entidad-Relacion
