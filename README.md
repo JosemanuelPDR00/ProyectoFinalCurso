@@ -47,7 +47,7 @@ Los requerimientos NO funcionales de la aplicacion web son:
   - Escalabilidad.
 
 #### Caso de uso
-
+https://drive.google.com/file/d/1PXp8XNndVimqmkh1zuog0XJbevhRq38Z/view?usp=sharing
 
 ### DISEÑO LOGICO
 .
