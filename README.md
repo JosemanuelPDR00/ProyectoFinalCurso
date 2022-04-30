@@ -63,7 +63,7 @@ https://drive.google.com/file/d/1ZKadwDpk31ptKol3U4gZM5agb1xWnmjX/view?usp=shari
 https://drive.google.com/file/d/1nRiQbue-ed9V4f1p1hdlg_jyFFZJYhfC/view?usp=sharing
 
 ####  Grafo Relacional
-
+https://drive.google.com/file/d/1Mgx4MMPblgjfIwBHmL8vnnV93Dne5tLT/view?usp=sharing
 
 
 
@@ -79,13 +79,11 @@ https://drive.google.com/file/d/1UU-zm_g7ssOSk5vCXc06d0ILnCnXQoU-/view?usp=shari
 
 
 #### Prototipo alta fidelidad
-
+https://www.canva.com/design/DAE-4WggueA/GWD-nWkGKMQDT99KqDxwyg/view?utm_content=DAE-4WggueA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
 ### IMPLEMENTACION
 .
 #### Aspectos mas relevantes
-
-
 
 
