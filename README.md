@@ -62,6 +62,10 @@ https://drive.google.com/file/d/1ZKadwDpk31ptKol3U4gZM5agb1xWnmjX/view?usp=shari
 #### Modelo Entidad-Relacion
 https://drive.google.com/file/d/1nRiQbue-ed9V4f1p1hdlg_jyFFZJYhfC/view?usp=sharing
 
+####  Grafo Relacional
+
+
+
 
 ### DISEÑO DE LA PAGINA
 .
