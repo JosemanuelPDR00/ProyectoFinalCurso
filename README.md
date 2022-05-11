@@ -6,17 +6,17 @@
 Mi proyecto de fin de curso, va a tratarse de una pagina web que ayudará al entrenamientos en el gimnasio, ya que veo la necesidad de que no todo el mundo sabe realizar de forma correcta los ejercicios y aun menos saben repartir o estructurar su entrenamiento a lo largo de la semana. Para ello, con mi aplicacion, los usuarios, tendran ayuda con herramientas, crearán su propia tabla,  tendran un cuerpo humano para poder ver los ejercicios que pueden realizar para los musculos que desea entrenar, tambien tendrán herramientas basicas como cronometro o traspaso de kilos a libras. Y en el  perfil personal, podremos ver la ficha tecnica del usuario con datos relevantes como por ejemplo, peso, altura, edad, etc...
 
 ### Titulo de la aplicacion web
-##MuscleUp
+## FitPhysique
 
 ### Investigacion previa y explicacion de la idea general
 
-https://madmuscles.com/es
-Esta es una pagina de la cual he cogido una idea que va a ser la recogida de datos de los usuarios, ya que lo hace de una forma muy clara.
+https://dudyfit.com/
+De esta pagina he sacado la idea de la creacion de tablas, como punto fuerte de la aplicacion, es que tiene una interfaz muy intuitiva para el uso de usuarios y esa es la idea que quiero recoger principalmente.
 
 https://musclewiki.com/
-De esta pagina tenia pensado usar la idea del cuerpo humano, para ver los ejercicios de cada musculo.
+De esta pagina tenia pensado usar la idea del cuerpo humano, para ver los ejercicios de cada musculo, asi podemos estructurar por partes los ejercicios.
 
-La idea general es aparte de los dos apartados orientativos, poder crear una tabla de forma correcta y tener herramientas que nos ayuden a organizar nuestra alimentacion y entranamientos para alcanzar nuestro objetivo.
+La idea general es aparte de los dos apartados orientativos, poder crear una tabla de forma correcta y tener herramientas que nos ayuden a organizar nuestros entrenamientos.
 
 
 ### PLANIFICACION
@@ -31,12 +31,11 @@ Voy a utilizar la filosofía Kanban, con la que estructuraré las tareas de form
 .
 #### Requisitos funcionales
 Los requisitos funcionales de la aplicacion web son:
-  - Registro o inicio de sesion de usuario.
-  - Listado de ejercicios.
+  - Registro e inicio de sesion de usuario.
+  - Listado de ejercicios, a traves de un filtro (cuerpo humano)
   - Herramientas utiles para usuarios, como por ejemplo:
-    - Perdida de calorias.
-    - Calculo de masa corporal.
-    - Calculo de calorias a ingerir para conseguir objetivo.
+    - Cronometro.
+    - Paso de KG a Libras y de Libras a KG.
 
 #### Requisitos NO funcionales
 Los requerimientos NO funcionales de la aplicacion web son:
@@ -70,13 +69,14 @@ https://drive.google.com/file/d/1Mgx4MMPblgjfIwBHmL8vnnV93Dne5tLT/view?usp=shari
 ### DISEÑO DE LA PAGINA
 .
 #### Gama cromatica
-La gama cromatica, he elegido como color a resaltar el naranja, ya que en temas de deporte, se lleva mucho y es un color muy indicado para ello. Los demas colores de la paleta, son colores basicos que le dan un toque minimalista a la pagina web.
+La gama cromatica, he elegido como color a resaltar el naranja, ya que en temas de deporte, se lleva mucho y es un color muy indicado para ello, transmite alegria, fuerza, frescor, tal como lo describo es perfecto como color ideal para una pagina de deporte. Los demas colores de la paleta, son colores basicos que le dan un toque minimalista y elegante a la pagina web.
 https://drive.google.com/file/d/1EMesvPmBZMoTVlP-kf82xxrer40167WZ/view?usp=sharing
 
+#### Logo de la aplicacion
+https://drive.google.com/file/d/1CpG6ymfHwf2Vk6TZ3pDmvCssV0B_YG12/view?usp=sharing
 
 #### Prototipo baja fidelidad
 https://drive.google.com/file/d/1UU-zm_g7ssOSk5vCXc06d0ILnCnXQoU-/view?usp=sharing
-
 
 #### Prototipo alta fidelidad
 https://www.canva.com/design/DAE-4WggueA/GWD-nWkGKMQDT99KqDxwyg/view?utm_content=DAE-4WggueA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
