@@ -3,7 +3,7 @@
 
 ## Anteproyecto
 
-Mi proyecto de fin de curso, va a tratarse de una pagina web que ayudará al entrenamientos en el gimnasio, ya que veo la necesidad de que no todo el mundo sabe realizar de forma correcta los ejercicios y aun menos saben repartir o estructurar su entrenamiento a lo largo de la semana. Para ello, con mi aplicacion, los usuarios, tendran ayuda con herramientas, crearán su propia tabla, dispondrán de grupo de telegram para ayudarse con la comunidad que tendremos y podrá ir apuntando su peso y altura, entre otros datos para ir viendo su progreso.
+Mi proyecto de fin de curso, va a tratarse de una pagina web que ayudará al entrenamientos en el gimnasio, ya que veo la necesidad de que no todo el mundo sabe realizar de forma correcta los ejercicios y aun menos saben repartir o estructurar su entrenamiento a lo largo de la semana. Para ello, con mi aplicacion, los usuarios, tendran ayuda con herramientas, crearán su propia tabla,  tendran un cuerpo humano para poder ver los ejercicios que pueden realizar para los musculos que desea entrenar, tambien tendrán herramientas basicas como cronometro o traspaso de kilos a libras. Y en el  perfil personal, podremos ver la ficha tecnica del usuario con datos relevantes como por ejemplo, peso, altura, edad, etc...
 
 ### Titulo de la aplicacion web
 ##MuscleUp
