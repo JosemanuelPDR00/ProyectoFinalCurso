@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorGeneral{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenRelleno{
+    background-image: url(../img/imagenRegistro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.contenedorFormulario{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titulo{
+    background-color: rgb(46, 46, 46, 0.85);
+    color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 15vh;
+    margin: 5vh auto 5vh auto;
+}
+
+.zonaFormulario{
+    background-color: rgb(46, 46, 46, 0.85);
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    width: 75%;
+    height: 60vh;
+}
+
+.logo{
+    background: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 2vh auto 2vh auto;
+}
+
+input{
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    height: 3.5vh;
+    margin-bottom: 2vh;
+}
+
+.rowBotones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boton{
+    background-color: rgb(244, 147, 54);
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 3vh;
+    margin: 0 5% 0 5%;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: #EE7722;
+    color: whitesmoke;
+}
+
+.botonRegistro{
+    padding: 5px;
+}
+
+@media screen and (min-width:850px) {
+    .imagenRelleno{
+        position: relative;
+        width: 50vw;
+    }
+    .contenedorFormulario{
+        width: 50vw;
+    }
+    .zonaFormulario{
+        background-color: rgb(46, 46, 46);
+    }
+    .titulo{
+        background-color: rgb(46, 46, 46);
+    }
+}
