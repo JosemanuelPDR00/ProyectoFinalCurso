@@ -69,11 +69,11 @@ https://drive.google.com/file/d/1Mgx4MMPblgjfIwBHmL8vnnV93Dne5tLT/view?usp=shari
 ### DISEÑO DE LA PAGINA
 .
 #### Gama cromatica
-La gama cromatica, he elegido como color a resaltar el naranja, ya que en temas de deporte, se lleva mucho y es un color muy indicado para ello, transmite alegria, fuerza, frescor, tal como lo describo es perfecto como color ideal para una pagina de deporte. Los demas colores de la paleta, son colores basicos que le dan un toque minimalista y elegante a la pagina web.
-https://drive.google.com/file/d/1EMesvPmBZMoTVlP-kf82xxrer40167WZ/view?usp=sharing
+La gama cromatica, he elegido como color a resaltar el naranja, ya que en temas de deporte, se lleva mucho y es un color muy indicado para ello, transmite alegria, fuerza, frescor, tal como lo describo es perfecto como color ideal para una página de deporte. Los demas colores de la paleta, son colores basicos que le dan un toque minimalista y elegante a la pagina web.
+https://drive.google.com/file/d/1yyZmamrc-LG5Xz46LCwR76ybdVVOfA8Y/view?usp=sharing
 
 #### Logo de la aplicacion
-https://drive.google.com/file/d/1CpG6ymfHwf2Vk6TZ3pDmvCssV0B_YG12/view?usp=sharing
+https://drive.google.com/file/d/1yyZmamrc-LG5Xz46LCwR76ybdVVOfA8Y/view?usp=sharing
 
 #### Prototipo baja fidelidad
 https://drive.google.com/file/d/1UU-zm_g7ssOSk5vCXc06d0ILnCnXQoU-/view?usp=sharing
