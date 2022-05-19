@@ -201,28 +201,11 @@ SIMPLEMENTE ESTA DE FONDO.*/
 
 /* ---------------HASTA AQUI ES EL MENU HAMBURGUESA---------------- */
 
-@media screen and (min-width:850px) {
 
-    #invisibleCheckbox,#contenedorHamburguesa,#barraDesplegable{
-        display: none;
-    }
-
-    .apartadoNavegacion{
-        display: flex;
-    }
-
-    .tiempo{
-        font-size: 200%;
-    }
-
-}
-
-
-/*---------------------------------------------------------------*/
 
 /*----------------- PAGINA DE HERRAMIENTAS ----------------------*/
 .contenedorContenido{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,4 +253,178 @@ SIMPLEMENTE ESTA DE FONDO.*/
     padding: 15px;
     margin-left: 1vw;
     margin-right: 1vw;
+}
+
+/*------------------------------------ APARTADO DE LA PAGINA DE INICIO -----------------------------------*/
+
+.contenedorInicio{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.apartado{
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80vw;
+    max-width: 400px;
+    height: 5vh;
+}
+
+.rowApartado{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.imagenApartado{
+    background-color: rgb(32, 32, 32);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    min-width: 30vw;
+    height: 20vh;
+    border-radius: 10px;
+}
+.imagenApartado:nth-child(odd){
+    margin-right: 2vw;
+}
+.imagenApartado:nth-child(even){
+    margin-left: 2vw;
+}
+.imagenApartado1{
+    background: url(../img/CuerpoHumano.jpeg);
+    background-color: rgb(32, 32, 32);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.columnaApartado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloApartado{
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    min-width: 80%;
+    height: 5vh;
+    min-height: 5vh;
+    border-radius: 10px;
+}
+
+.descripcionApartado{
+    background-color: #a6a6a6;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: justify;
+    height: 10vh;
+    min-height: 10vh;
+    width: 50vw;
+    font-size: 85%;
+}
+
+.botonApartado{
+    background-color: #EE7722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    min-height: 5vh;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/*--------------------------- APARTADO CUERPO HUMANO ------------------------------*/
+
+.contenedorCuerpoHumano{
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+}
+
+.contenedorEjercicios{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 3vh;
+}
+
+.ejercicio{
+    /* background-color: green; */
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.contenedorGifEjercicio{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    padding: 1vw;
+}
+
+.gifEjercicio{
+    width: 30vw;
+}
+
+.nombreEjercicio{
+    text-align: center;
+}
+
+/*-------------------------- MEDIO QUERY -------------------------*/
+
+@media screen and (min-width:850px) {
+
+    html{
+        overflow-x:hidden;
+    }
+
+    /* BARRA DE NAVEGACION Y MENU HAMBURGUESA */
+    #invisibleCheckbox,#contenedorHamburguesa,#barraDesplegable{
+        display: none;
+    }
+    .apartadoNavegacion{
+        display: flex;
+    }
+
+    /* APARTADO HERRAMIENTAS (CRONOMETRO) */
+    .tiempo{
+        font-size: 200%;
+    }
+
+    /* APARTADO INICIAL */
+    .descripcionApartado{
+        font-size: 120%;
+    }
+
+    /* APARTADO CUERPO HUMANO */
+    .ejercicio{
+        width: 20vw;
+    }
+    .contenedorGifEjercicio{
+        width: 15vw;
+    }
+    .gifEjercicio{
+        width: 15vw;
+    }
 }
