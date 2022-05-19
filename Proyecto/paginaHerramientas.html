@@ -51,10 +51,18 @@
             <li class="apartados" onclick="meVoyAPerfil()">PERFIL</li>
         </nav>
 
-        <!-- CONTENIDO DE LA PAGINA -->
+        <!-- AQUI VA EL CONTENIDO DE LA PAGINA -->
         <div class="contenedorContenido">
-            <div class="apartadoPagina">
-                INICIO
+            <div class="apartadoPagina">HERRAMIENTAS</div>
+
+            <div class="marco">
+                CRONOMETRO
+                <div class="tiempo" id="tiempo">00:00:00.000</div>
+                <div class="botones">
+                    <div class="btn" onclick="iniciar()"><i class="fa-solid fa-play"></i></div>
+                    <div class="btn" onclick="pausar()"><i class="fa-solid fa-pause"></i></div>
+                    <div class="btn" onclick="reiniciar()"><i class="fa-solid fa-rotate-right"></i></div>
+                </div>
             </div>
         </div>
 </body>

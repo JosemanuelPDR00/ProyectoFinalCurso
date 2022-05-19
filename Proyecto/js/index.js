@@ -1,9 +1,24 @@
+//FUNCIONES DE DESPLAZAMIENTO PARA LOS BOTONES DE LA BARRA DE NAVEGACION
 function meVoyARegistrar(){
     window.location = "./registro.html";
 }
-
-function volverInicio(){
+function volverIndex(){
     window.location = "./index.html";
+}
+function meVoyAInicio(){
+    window.location = "./paginaInicio.html";
+}
+function meVoyAlCuerpoHumano(){
+    window.location = "./paginaCuerpoHumano.html";
+}
+function meVoyATablas(){
+    window.location = "./paginaTablas.html";
+}
+function meVoyAHerramientas(){
+    window.location = "./paginaHerramientas.html";
+}
+function meVoyAPerfil(){
+    window.location = "./paginaPerfil.html";
 }
 
 //EXPRESION REGULAR DE LA PAGINA DE INICIO(LOGIN)
@@ -22,4 +37,42 @@ function expReg(){
     }else{
         alert("ALGO ESTA FALLANDO");
     }
+}
+
+// CRONOMETRO ---------------------------------
+
+let tiempoRef = Date.now();
+let cronometrar=false;
+let acumulado = 0;
+
+setInterval(() => {
+    let tiempo = document.getElementById("tiempo")
+    if(cronometrar){
+        acumulado += Date.now() - tiempoRef
+    }
+    tiempoRef = Date.now()
+    tiempo.innerHTML = formatearMS(acumulado)
+}, 1000/60);
+
+function formatearMS(tiempo_ms){
+    let MS = tiempo_ms % 1000
+    let S = Math.floor(((tiempo_ms - MS) / 1000) %60)
+    let M = Math.floor((S / 60) % 60)
+    let H = Math.floor((M / 60))
+    Number.prototype.ceros = function(n){
+        return (this+"").padStart(n,0)
+    }
+    return H.ceros(2)+":"+M.ceros(2)+":"+S.ceros(2)+":"+MS.ceros(3)
+}
+
+
+//FUNCIONES PARA LOS BOTONES DEL CRONOMETRO
+function iniciar(){
+    cronometrar=true;
+}
+function pausar(){
+    cronometrar=false;
+}
+function reiniciar(){
+    acumulado=0;
 }

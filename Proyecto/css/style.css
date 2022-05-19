@@ -48,7 +48,7 @@ html{
 
 .perfil{
     width: 10vh;
-    border-radius: 50%;
+    border-radius: 10px;
     margin-right: 1vw;
 }
 
@@ -211,4 +211,63 @@ SIMPLEMENTE ESTA DE FONDO.*/
         display: flex;
     }
 
+    .tiempo{
+        font-size: 200%;
+    }
+
+}
+
+
+/*---------------------------------------------------------------*/
+
+/*----------------- PAGINA DE HERRAMIENTAS ----------------------*/
+.contenedorContenido{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apartadoPagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EE7722;
+    width: 50vw;
+    max-width: 400px;
+    text-align: center;
+    height: 5vh;
+    margin: 3vh 40vw;
+    border-radius: 10px;
+    border: 2px solid rgb(32, 32, 32);
+}
+
+.marco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    padding: 15px;
+    width: 50vw;
+    max-width: 300px;
+}
+.tiempo{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    font-size: 170%;
+}
+.botones{
+    display: flex;
+}
+.btn{
+    display: inline-block;
+    background-color: #EE7722;
+    font-size: 100%;
+    padding: 15px;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
