@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    font-family: 'Exo', sans-serif;
+}
+
 .contenedorGeneral{
     width: 100vw;
     height: 100vh;
@@ -41,6 +45,9 @@
     width: 75%;
     height: 15vh;
     margin: 10vh auto 5vh auto;
+    font-family: 'Black Ops One', cursive;
+    font-size: 3em;
+    font-weight: 400;
 }
 
 .zonaFormulario{
@@ -81,7 +88,7 @@ input{
 }
 
 .boton{
-    background-color: rgb(244, 147, 54);
+    background-color: #f49336;
     border-radius: 10px;
     border: 1px solid black;
     display: flex;
@@ -90,12 +97,11 @@ input{
     width: 60%;
     height: 3vh;
     margin: 0 5% 0 5%;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: x-large;
+    font-family: 'Black Ops One', cursive;
 }
 
-.botonRegistro{
-    padding: 5px;
-}
 
 .boton:hover{
     background-color: #EE7722;
