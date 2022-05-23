@@ -205,8 +205,8 @@ SIMPLEMENTE ESTA DE FONDO.*/
 
 
 /*----------------- PAGINA DE HERRAMIENTAS ----------------------*/
+
 .contenedorContenido{
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,6 +227,8 @@ SIMPLEMENTE ESTA DE FONDO.*/
     border: 2px solid rgb(32, 32, 32);
 }
 
+/*---------------- CRONOMETRO ------------------------------*/
+
 .marco{
     display: flex;
     flex-direction: column;
@@ -237,6 +239,7 @@ SIMPLEMENTE ESTA DE FONDO.*/
     padding: 15px;
     width: 50vw;
     max-width: 300px;
+    margin-bottom: 5vh;
 }
 .tiempo{
     display: flex;
@@ -255,6 +258,9 @@ SIMPLEMENTE ESTA DE FONDO.*/
     margin-left: 1vw;
     margin-right: 1vw;
 }
+
+/*-------------------------- CONVERSION DE UNIDADES DE PESO ------------------------*/
+
 
 /*------------------------------------ APARTADO DE LA PAGINA DE INICIO -----------------------------------*/
 
@@ -392,30 +398,7 @@ SIMPLEMENTE ESTA DE FONDO.*/
     text-align: center;
 }
 
-.ocultoAbs{
-    /* display: flex; */
-}
-
-.ocultoBrazo{
-    /* display: flex; */
-}
-
-.ocultoEspalda{
-    /* display: flex; */
-}
-
-.ocultoHombro{
-    /* display: flex; */
-}
-
-.ocultoPecho{
-    /* display: flex; */
-}
-
-.ocultoPiernas{
-    /* display: flex; */
-}
-/*-------------------------- MEDIO QUERY -------------------------*/
+/*-------------------------- MEDIA QUERY -------------------------*/
 
 @media screen and (min-width:850px) {
 

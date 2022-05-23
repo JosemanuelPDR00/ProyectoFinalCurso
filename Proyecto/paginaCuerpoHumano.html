@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Exo&display=swap" rel="stylesheet">
     <!-- ICONOS DE FONTAWESOME -->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -59,21 +61,21 @@
 
             <!-- CREACION DE MAPA EN LA IMAGEN DEL CUERPO POR DELANTE -->
             <map name="CuerpoHumanoDelantera">
-                <area shape="poly" coords="59,165,86,154,85,225,56,303,34,303,43,244,52,210" href="#" alt="brazoIzquierdo" onclick="mensajePrueba()" title="Brazo">
-                <area shape="poly" coords="234,165,239,210,244,233,248,299,228,302,220,279,209,249,207,174,214,150" href="#" alt="brazoDerecho" onclick="mensajePrueba()" title="Brazo">
-                <area shape="poly" coords="60,159,71,118,123,98,178,100,225,116,235,137,254,161,210,128,179,120,120,119,91,132,75,159" href="#" alt="Hombro+Trapecio" onclick="mensajePrueba()" title="Hombro+Trapecio">
-                <area shape="poly" coords="93,137,151,127,209,134,205,168,186,184,152,181,110,183,94,157" href="#" alt="Pectoral" onclick="mensajePrueba()" title="Pectoral">
-                <area shape="poly" coords="152,183,199,197,197,272,146,335,99,269,103,196" href="#" alt="Abdominales" onclick="mensajePrueba()" title="Abdominales">
-                <area shape="poly" coords="145,347,200,298,210,362,199,470,193,594,168,593,161,522,147,398,138,509,137,590,115,590,97,505,97,505,95,427,84,346,100,287" href="#" alt="Piernas" onclick="mensajePrueba()" title="Piernas">
+                <area shape="poly" coords="59,165,86,154,85,225,56,303,34,303,43,244,52,210" href="#" alt="brazoIzquierdo" onclick="mostrar()" title="Brazo" class="cuerpoBrazo">
+                <area shape="poly" coords="234,165,239,210,244,233,248,299,228,302,220,279,209,249,207,174,214,150" href="#" alt="brazoDerecho" onclick="mostrar()" title="Brazo" class="cuerpoBrazo">
+                <area shape="poly" coords="60,159,71,118,123,98,178,100,225,116,235,137,254,161,210,128,179,120,120,119,91,132,75,159" href="#" alt="Hombro+Trapecio" onclick="mostrar()" title="Hombro+Trapecio" class="cuerpoHombro">
+                <area shape="poly" coords="93,137,151,127,209,134,205,168,186,184,152,181,110,183,94,157" href="#" alt="Pectoral" onclick="mostrar()" title="Pectoral" class="cuerpoPectoral">
+                <area shape="poly" coords="152,183,199,197,197,272,146,335,99,269,103,196" href="#" alt="Abdominales" onclick="mostrar()" title="Abdominales" class="cuerpoAbs">
+                <area shape="poly" coords="145,347,200,298,210,362,199,470,193,594,168,593,161,522,147,398,138,509,137,590,115,590,97,505,97,505,95,427,84,346,100,287" href="#" alt="Piernas" onclick="mostrar()" title="Piernas" class="cuerpoPierna">
             </map>
 
             <!-- CREACION DE MAPA EN LA IMAGEN DEL CUERPO POR DETRAS -->
             <map name="CuerpoHumanoTrasera">
-                <area shape="poly" coords="52,163,75,148,78,236,58,307,40,301,43,229" href="#" alt="BrazoIzquierdo" title="Brazo" onclick="mensajePrueba()">
-                <area shape="poly" coords="228,167,205,154,203,236,232,307,251,304,241,237" href="#" alt="BrazoDerecho" title="Brazo" onclick="mensajePrueba()">
-                <area shape="poly" coords="52,148,76,107,192,108,220,123,226,153,197,129,142,115,78,127" href="#" alt="Hombro+Trapecio" title="Hombro+Trapecio" onclick="mensajePrueba()">
-                <area shape="poly" coords="83,132,198,131,187,229,90,233" href="#" alt="Espalda" title="Espalda" onclick="mensajePrueba()">
-                <area shape="poly" coords="88,288,194,285,203,367,188,472,187,545,147,548,141,403,123,553,87,542,79,376" href="#" alt="Piernas" title="Piernas" onclick="mensajePrueba()">
+                <area shape="poly" coords="52,163,75,148,78,236,58,307,40,301,43,229" href="#" alt="BrazoIzquierdo" title="Brazo" onclick="mostrar()" class="cuerpoBrazo">
+                <area shape="poly" coords="228,167,205,154,203,236,232,307,251,304,241,237" href="#" alt="BrazoDerecho" title="Brazo" onclick="mostrar()" class="cuerpoBrazo">
+                <area shape="poly" coords="52,148,76,107,192,108,220,123,226,153,197,129,142,115,78,127" href="#" alt="Hombro+Trapecio" title="Hombro+Trapecio" onclick="mostrar()" class="cuerpoHombro">
+                <area shape="poly" coords="83,132,198,131,187,229,90,233" href="#" alt="Espalda" title="Espalda" onclick="mostrar()" class="cuerpoEspalda">
+                <area shape="poly" coords="88,288,194,285,203,367,188,472,187,545,147,548,141,403,123,553,87,542,79,376" href="#" alt="Piernas" title="Piernas" onclick="mostrar()" class="cuerpoPierna">
             </map>
 
             <!-- IMAGENES CUERPO HUMANO CON EL MAPA ASIGNADO -->
@@ -127,7 +129,7 @@
                     <div class="contenedorGifEjercicio"><img src="./img/gifEjercicios/brazos/AntebrazoSuperiorConMancuerna.gif" alt="" class="gifEjercicio"></div>
                     <div class="nombreEjercicio">ANTEBRAZO SUPERIOR</div>
                 </div>
-                <div class="ejercicio">
+                <div class="ejercicio ocultoBrazo">
                     <div class="contenedorGifEjercicio"><img src="./img/gifEjercicios/brazos/BicepsConBarra.gif" alt="" class="gifEjercicio"></div>
                     <div class="nombreEjercicio">BICEPS CON BARRA</div>
                 </div>

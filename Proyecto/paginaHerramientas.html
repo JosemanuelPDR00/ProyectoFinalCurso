@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- ARCHIVO JAVASCRIPT -->
     <script src="./js/index.js"></script>
+    <!-- UTILIZACION DE AJAX -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- TIPOGRAFÍA -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,6 +65,34 @@
                     <div class="btn" onclick="pausar()"><i class="fa-solid fa-pause"></i></div>
                     <div class="btn" onclick="reiniciar()"><i class="fa-solid fa-rotate-right"></i></div>
                 </div>
+            </div>
+
+            <div class="contenedorConversorUnidades">
+
+                    <h4>TRASPASO DE KILOGRAMOS A LIBRAS</h4>
+                    <div class="cajaKilosALibras">
+                        INTRODUCE LOS KILOGRAMOS
+                        <input type="number" name="kilosalibras" id="kilosalibras" value="0"> KG
+                        <br>
+                        <input type="hidden" value="2.20462" id="valor1KGenLibras">
+                        <br>
+                        <input type="button" value="CALCULAR" onclick="Calcular()" id="botonCalcular">
+                        <div id="resultadoLB">0</div>
+                    </div>
+
+                    <br>
+
+                    <h4>TRASPASO DE LIBRAS A KILOGRAMOS</h4>
+                    <div class="cajaLibrasAKilos">
+                        INTRODUCE LAS LIBRAS
+                        <input type="number" name="librasakilos" id="librasakilos" value="0"> LB
+                        <br>
+                        <input type="hidden" value="2.20462" id="valor1LBenKilos">
+                        <br>
+                        <input type="button" value="CALCULAR" onclick="CalcularKG()" id="botonCalcularKG">
+                        <div id="resultadoKG">0</div>
+                    </div>
+
             </div>
         </div>
 </body>

@@ -47,7 +47,7 @@ function expReg(){
     }
 }
 
-// CRONOMETRO ---------------------------------
+//-------------------------------------- CRONOMETRO ---------------------------------
 
 //VARIABLES
 let tiempoRef = Date.now()
@@ -88,8 +88,77 @@ function formatearMS(tiempo_ms){
     return H.ceros(2)+":"+M.ceros(2)+":"+S.ceros(2)+"."+MS.ceros(3)
 }
 
-//FUNCIONES DEL CUERPO HUMANO
+//FUNCIONAMIENTO EN AJAX PARA EL CONVERSOR DE UNIDADES
 
-function mensajePrueba(){
-    alert("Has pulsado sobre el cuerpo humano");
+function Calcular(){
+    //valor recogido
+    kg = $('#kilosalibras').val();
+    lb = $('#valor1KGenLibras').val();
+
+    $.ajax({
+        url: './ajax.php',
+        type: 'post',
+        data: {valor1:kg, valor2:lb},
+        success: function(respuesta){
+            $('#resultadoLB').html(respuesta);
+        }
+    })
 }
+
+function CalcularKG(){
+    //valor recogido
+    lb = $('#librasakilos').val();
+    kg = $('#valor1LBenKilos').val();
+
+    $.ajax({
+        url: './ajax2.php',
+        type: 'post',
+        data: {valor1:lb, valor2:kg},
+        success: function(respuesta2){
+            $('#resultadoKG').html(respuesta2);
+        }
+    })
+}
+
+
+
+//------------------------------------ FUNCIONES DEL CUERPO HUMANO ------------------------------
+function mostrar(){
+
+    $(document).ready(function(){
+        $('.cuerpoBrazo').on('click',function(){
+            $('.ocultoBrazo').toggle();
+        });
+    });
+    $(document).ready(function(){
+        $('.cuerpoHombro').on('click',function(){
+            $('.ocultoHombro').toggle();
+        });
+    });
+    $(document).ready(function(){
+        $('.cuerpoPectoral').on('click',function(){
+            $('.ocultoPecho').toggle();
+        });
+    });
+    $(document).ready(function(){
+        $('.cuerpoEspalda').on('click',function(){
+            $('.ocultoEspalda').toggle();
+        });
+    });
+    $(document).ready(function(){
+        $('.cuerpoAbs').on('click',function(){
+            $('.ocultoAbs').toggle();
+        });
+    });
+    $(document).ready(function(){
+        $('.cuerpoPierna').on('click',function(){
+            $('.ocultoPiernas').toggle();
+        });
+    });
+
+}
+
+
+
+
+
