@@ -69,31 +69,31 @@
 
             <div class="contenedorConversorUnidades">
 
-                    <h4>TRASPASO DE KILOGRAMOS A LIBRAS</h4>
-                    <div class="cajaKilosALibras">
-                        INTRODUCE LOS KILOGRAMOS
-                        <input type="number" name="kilosalibras" id="kilosalibras" value="0"> KG
-                        <br>
+                    <h4 class="titulilloConversor">TRASPASO DE KILOGRAMOS A LIBRAS</h4>
+                    <div class="cajaKilosALibras cajonConversion">
+                        <input type="number" name="kilosalibras" id="kilosalibras" placeholder="INTRODUCE KILOGRAMOS" class="unidadesIntro"><br>
+
                         <input type="hidden" value="2.20462" id="valor1KGenLibras">
-                        <br>
-                        <input type="button" value="CALCULAR" onclick="Calcular()" id="botonCalcular">
+
+                        <input type="button" value="CALCULAR" onclick="Calcular()" id="botonCalcular" class="botonCalculoAJAX"><br>
                         <div id="resultadoLB">0</div>
                     </div>
 
-                    <br>
+                    <br><br>
 
-                    <h4>TRASPASO DE LIBRAS A KILOGRAMOS</h4>
-                    <div class="cajaLibrasAKilos">
-                        INTRODUCE LAS LIBRAS
-                        <input type="number" name="librasakilos" id="librasakilos" value="0"> LB
-                        <br>
+                    <h4 class="titulilloConversor">TRASPASO DE LIBRAS A KILOGRAMOS</h4>
+                    <div class="cajaLibrasAKilos cajonConversion">
+
+                        <input type="number" name="librasakilos" id="librasakilos" placeholder="INTRODUCE LIBRAS" class="unidadesIntro"><br>
+
                         <input type="hidden" value="2.20462" id="valor1LBenKilos">
-                        <br>
-                        <input type="button" value="CALCULAR" onclick="CalcularKG()" id="botonCalcularKG">
+
+                        <input type="button" value="CALCULAR" onclick="CalcularKG()" id="botonCalcularKG" class="botonCalculoAJAX"><br>
                         <div id="resultadoKG">0</div>
                     </div>
 
             </div>
+
         </div>
 </body>
 </html>

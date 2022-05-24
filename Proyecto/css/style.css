@@ -260,8 +260,42 @@ SIMPLEMENTE ESTA DE FONDO.*/
 }
 
 /*-------------------------- CONVERSION DE UNIDADES DE PESO ------------------------*/
+.contenedorConversorUnidades{
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
 
+.titulilloConversor{
+    margin-bottom: 2vh;
+    font-size: 1.2em;
+}
 
+.cajonConversion{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+}
+
+.unidadesIntro{
+    width: 80%;
+    height: 3vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.botonCalculoAJAX{
+    background-color: #EE7722;
+    width: 80%;
+    height: 3vh;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
 /*------------------------------------ APARTADO DE LA PAGINA DE INICIO -----------------------------------*/
 
 .contenedorInicio{

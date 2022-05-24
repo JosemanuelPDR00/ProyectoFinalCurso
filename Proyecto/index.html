@@ -22,14 +22,14 @@
         <div class="contenedorFormulario">
             <h1 class="titulo">LOGIN</h1>
             <div class="zonaFormulario">
-                <form action="#" class="formulario">
+                <form action="./comprueba_login.php" method="post" class="formulario">
                     <div class="contenedorAcogedor">
                         <div class="logo"></div>
                         <input type="text" name="usuario" id="usuario" placeholder="USUARIO" ><br>
                         <input type="password" name="contra" id="contra" placeholder="CONTRASEÑA">
                         <div class="rowBotones">
-                            <div class="botonRegistro boton" onclick="meVoyARegistrar()">REGISTRARSE</div>
-                            <div class="botonEntrar boton" onclick="expReg()">ENTRAR</div>
+                            <input class="botonRegistro boton" onclick="meVoyARegistrar()" value="REGISTRARME"></input>
+                            <input type="submit" class="botonEntrar boton" onclick="expReg()" value="ACCEDER"></input>
                         </div>
                     </div>
                 </form>
