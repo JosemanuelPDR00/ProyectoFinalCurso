@@ -3,22 +3,22 @@ function meVoyARegistrar(){
     window.location = "./registro.html";
 }
 function volverIndex(){
-    window.location = "./index.html";
+    window.location = "./index.php";
 }
 function meVoyAInicio(){
-    window.location = "./paginaInicio.html";
+    window.location = "./paginaInicio.php";
 }
 function meVoyAlCuerpoHumano(){
-    window.location = "./paginaCuerpoHumano.html";
+    window.location = "./paginaCuerpoHumano.php";
 }
 function meVoyATablas(){
-    window.location = "./paginaTablas.html";
+    window.location = "./paginaTablas.php";
 }
 function meVoyAHerramientas(){
-    window.location = "./paginaHerramientas.html";
+    window.location = "./paginaHerramientas.php";
 }
 function meVoyAPerfil(){
-    window.location = "./paginaPerfil.html";
+    window.location = "./paginaPerfil.php";
 }
 
 //EXPRESION REGULAR DE LA PAGINA DE INICIO(LOGIN)
@@ -34,7 +34,7 @@ function expReg(){
 
 
     if(expresionRegularUsuario.test(usuario) && expresionRegularContra.test(contra)){
-            window.location = "./paginaInicio.html";
+            window.location = "./paginaInicio.php";
     }else if(expresionRegularUsuario.test(usuario)==false && expresionRegularContra.test(contra)==false){
         alert("USUARIO Y CONTRASEÑA INCORRECTOS");
 
