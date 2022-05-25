@@ -198,8 +198,6 @@ SIMPLEMENTE ESTA DE FONDO.*/
     transform-origin: right;
     transform: rotateZ(90deg) translate(5px, 5px);
 }
-
-
 /* ---------------HASTA AQUI ES EL MENU HAMBURGUESA---------------- */
 
 
@@ -225,6 +223,8 @@ SIMPLEMENTE ESTA DE FONDO.*/
     margin: 3vh 40vw;
     border-radius: 10px;
     border: 2px solid rgb(32, 32, 32);
+    font-family: 'Black Ops One', cursive;
+    font-size: x-large;
 }
 
 /*---------------- CRONOMETRO ------------------------------*/
@@ -326,7 +326,6 @@ SIMPLEMENTE ESTA DE FONDO.*/
 }
 
 .imagenApartado{
-    background-color: rgb(32, 32, 32);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -343,6 +342,20 @@ SIMPLEMENTE ESTA DE FONDO.*/
 }
 .imagenApartado1{
     background: url(../img/CuerpoHumano.jpeg);
+    background-color: rgb(32, 32, 32);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* .imagenApartado2{
+    background: url();
+    background-color: rgb(32, 32, 32);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+.imagenApartado3{
+    background: url(../img/apartadoHerramientas.png);
     background-color: rgb(32, 32, 32);
     background-position: center;
     background-size: contain;
@@ -389,6 +402,9 @@ SIMPLEMENTE ESTA DE FONDO.*/
     min-height: 5vh;
     width: 50%;
     border-radius: 10px;
+    cursor: pointer;
+    font-family:'Black Ops One', cursive;
+    font-size: x-large;
 }
 
 /*--------------------------- APARTADO CUERPO HUMANO ------------------------------*/
@@ -399,7 +415,6 @@ SIMPLEMENTE ESTA DE FONDO.*/
 }
 
 .contenedorEjercicios{
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -408,7 +423,6 @@ SIMPLEMENTE ESTA DE FONDO.*/
 }
 
 .ejercicio{
-    /* background-color: green; */
     width: 40vw;
     display: none;
     flex-direction: column;
@@ -456,6 +470,7 @@ SIMPLEMENTE ESTA DE FONDO.*/
     justify-content: space-around;
     width: 70%;
 }
+
 .datosPerfilTitular{
     font-weight: 900;
     font-size: x-large;
@@ -530,4 +545,5 @@ a{
         border: 2px solid black;
         color: black;
     }
+
 }

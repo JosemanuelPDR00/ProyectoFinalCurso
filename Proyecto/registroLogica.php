@@ -27,7 +27,7 @@
     mysqli_set_charset($conexion, "utf8");
 
     //CONSULTA SQL A REALIZAR
-    $consulta = "INSERT INTO usuario(nombre, apellidos, fechaNac, peso, altura, correo, usuario, contraseña, imagen) VALUES ('$nombreUsuario','$apellidos','$fechaNaccimiento',80.35,1.79,'$correo','$usuario','$contraseña','NULL')";
+    $consulta = "INSERT INTO usuario(nombre, apellidos, fechaNac, peso, altura, correo, usuario, contraseña, imagen) VALUES ('$nombreUsuario','$apellidos','$fechaNaccimiento',0,0,'$correo','$usuario','$contraseña','NULL')";
 
     //RESULTADO SOBRE LA CONEXION A LA BASE DE DATOS INDICADA
     $resultado = mysqli_query($conexion, $consulta);
@@ -36,7 +36,7 @@
         echo "Error en la consulta";
     }else{
         echo "Registro guardado";
-        location("index.php");
+        header("location:./index.php");
     }
 
 
