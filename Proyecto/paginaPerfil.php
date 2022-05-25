@@ -71,25 +71,22 @@
 
             <div class="contenedorPerfil">
 
-                <img src="" alt="imagen" class="imagenPerfil">
+                <?php 
+                    require_once("./leerImagenBBDD.php");
+                ?>
+
+                <img src="/ProyectoFinalCurso/Proyecto/imagenesSubidas/<?php echo $ruta_img; ?>" alt="imagen" class="imagenPerfil">
 
                 <div class="contenedorDatosPerfil">
 
                     <div class="contenedorPerfilNombre">
                         <p class="datosPerfilTitular">USUARIO</p>
                         <p class="datosPerfil"><?php echo $_SESSION['usuarioRegistrado'] ?></p>
-                    </div>
-
-                    <div class="contenedorPerfilPeso">
-                        <p class="datosPerfilTitular">PESO</p>
-                        <p class="datosPerfil">100.6</p>
-                    </div>
-
-                    <div class="contenedorPerfilAltura">
-                        <p class="datosPerfilTitular">ALTURA</p>
-                        <p class="datosPerfil">1.85</p>
-                    </div>
-
+                    </div>  
+                      
+                    <?php 
+                        require_once("./consultaPerfil.php");
+                    ?>
                 </div>
 
             </div>

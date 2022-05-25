@@ -1,24 +1,29 @@
-<?php
-
-    require("./constantesConexionBBDD.php");
+<?php 
 
     class Conexion{
+        //VARIABLES DE CONEXION
+        private $host = "localhost";
+        private $user = "root";
+        private $password = "";
+        private $db = "bbddProyecto";
+        private $conexion;
 
-        protected $conexion_db;
+        public function __contruct(){
+            $conexionCompleta = "mysql:host=".$this->host.";dbname=".$this->db.";charset=utf8";
 
-        public function Conexion(){
-
-            $this->conexion_db=new mysqli(DB_HOST,DB_USUARIO,DB_CONTRA,DB_NOMBRE);
-
-            if($this->conexion_db->connect_errno){
-                echo "FALLO AL CONECTAR A MYSQL: ". $this->conexion_db->connect_error;
-                return;
+            try{
+                $this->conexion = new PDO($conexionCompleta,$this->user,$this->password);
+                $this->conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            }catch(Exception $e){
+                $this->conexion="Error de conexión";
+                echo "ERROR: ".$e->getMessage();
             }
-
-            $this->conexion_db->set_charset(DB_CHARSET);
-
         }
     }
 
+    // IMPORTAR LA CONEXION A LA BASE DE DATOS
+    
+    // require_once("");
+    // $conexion = new Conexion();
 
 ?>

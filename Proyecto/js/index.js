@@ -1,6 +1,6 @@
 //FUNCIONES DE DESPLAZAMIENTO PARA LOS BOTONES DE LA BARRA DE NAVEGACION
 function meVoyARegistrar(){
-    window.location = "./registro.html";
+    window.location = "./registro.php";
 }
 function volverIndex(){
     window.location = "./index.php";
