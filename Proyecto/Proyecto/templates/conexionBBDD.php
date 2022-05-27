@@ -8,7 +8,7 @@
         private $db = "bbddProyecto";
         private $conexion;
 
-        public static function __contruct(){
+        public static function conectar(){
             $conexionCompleta = "mysql:host=".$this->host.";dbname=".$this->db.";charset=utf8";
 
             try{

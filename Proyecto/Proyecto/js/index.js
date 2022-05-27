@@ -158,7 +158,12 @@ function mostrar(){
 
 }
 
+/*----------- FUNCIONES APARTADO DE TABLAS ----------------------*/
 
+function abrirVentana(){
+    document.getElementById("contenedorFlotante").style.display="block";
+}
 
-
-
+function cerrarVentana(){
+    document.getElementById("contenedorFlotante").style.display="none";
+}

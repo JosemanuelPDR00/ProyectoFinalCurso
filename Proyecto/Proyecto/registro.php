@@ -27,6 +27,8 @@
                         <div class="logoAcceso"></div>
                         <input type="text" name="nombre" id="nombre" placeholder="NOMBRE COMPLETO" class="input" pattern="[A-Z a-z]{2,30}" required maxlength="30"><!-- letras minusculas, mayusculas o espacio minimo 2 veces y maximo 30 -->
                         <input type="text" name="apellidos" id="apellidos" placeholder="APELLIDOS" class="input" pattern="[A-Z a-z]{2,30}" required maxlength="30">
+                        <input type="text" name="peso" id="peso" placeholder="PESO EN KILOGRAMOS" class="input" pattern="(\d+(\.\d{1,2})?)" required maxlength="10">
+                        <input type="text" name="altura" id="altura" placeholder="ALTURA EN METROS" class="input" pattern="(\d+(\.\d{1,2})?)" required maxlength="10">
                         <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="input" required>
                         <input type="file" name="imagen" id="imagen" size="20" class="input" required>
                         <input type="email" name="correo" id="correo" class="input" placeholder="CORREO ELECTRONICO" pattern="[\w]{5,}@(gmail|hotmail).(com|es)" required maxlength="40"><!-- Caracteres alfanumericos y _ @ hotmail o gmail y dominio .es o .com -->
