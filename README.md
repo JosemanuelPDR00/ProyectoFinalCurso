@@ -3,7 +3,7 @@
 
 ## Anteproyecto
 
-Mi proyecto de fin de curso, va a tratarse de una pagina web que ayudará al entrenamientos en el gimnasio, ya que veo la necesidad de que no todo el mundo sabe realizar de forma correcta los ejercicios y aun menos saben repartir o estructurar su entrenamiento a lo largo de la semana. Para ello, con mi aplicacion, los usuarios, tendran ayuda con herramientas, crearán su propia tabla,  tendran un cuerpo humano para poder ver los ejercicios que pueden realizar para los musculos que desea entrenar, tambien tendrán herramientas basicas como cronometro o traspaso de kilos a libras. Y en el  perfil personal, podremos ver la ficha tecnica del usuario con datos relevantes como por ejemplo, peso, altura, edad, etc...
+Mi proyecto de fin de curso, va a tratarse de una pagina web que ayudará al entrenamientos en el gimnasio, ya que veo la necesidad de que no todo el mundo sabe realizar de forma correcta los ejercicios. Para ello, con mi aplicacion, los usuarios, tendran ayuda con herramientas, como son: Crear notas o tablas de apuntes donde puedes escribir tanto el entreno realizado como las anotaciones que necesites,  tendran un cuerpo humano para poder ver los ejercicios que pueden realizar para los musculos que desean entrenar, de esta manera conseguirán poder tener mejor tecnica en los ejercicios que realicen, también tendrán herramientas basicas como cronometro o traspaso de kilos a libras y calculo de indice de masa corporal. Y en el  perfil personal, podremos ver la ficha tecnica del usuario con datos relevantes como por ejemplo, peso, altura y usuario.
 
 ### Titulo de la aplicacion web
 ## FitPhysique
@@ -32,16 +32,17 @@ Voy a utilizar la filosofía Kanban, con la que estructuraré las tareas de form
 #### Requisitos funcionales
 Los requisitos funcionales de la aplicacion web son:
   - Registro e inicio de sesion de usuario.
-  - Listado de ejercicios, a traves de un filtro (cuerpo humano)
+  - Listado de ejercicios, a traves de un filtro (cuerpo humano).
+  - Apartado de anotaciones o tabla de apuntes.
   - Herramientas utiles para usuarios, como por ejemplo:
     - Cronometro.
     - Paso de KG a Libras y de Libras a KG.
+    - Calculo Indice de Masa Corporal.
 
 #### Requisitos NO funcionales
 Los requerimientos NO funcionales de la aplicacion web son:
   - Fiabilidad.
   - Seguridad de los datos personales.
-  - Fácil de mantener la aplicacion.
   - Fácil manejo de la aplicacion para el usurio.
   - Escalabilidad.
 
@@ -69,7 +70,8 @@ https://drive.google.com/file/d/1Mgx4MMPblgjfIwBHmL8vnnV93Dne5tLT/view?usp=shari
 ### DISEÑO DE LA PAGINA
 .
 #### Gama cromatica
-La gama cromatica, he elegido como color a resaltar el naranja, ya que en temas de deporte, se lleva mucho y es un color muy indicado para ello, transmite alegria, fuerza, frescor, tal como lo describo es perfecto como color ideal para una página de deporte. Los demas colores de la paleta, son colores basicos que le dan un toque minimalista y elegante a la pagina web.
+La gama cromatica, he elegido como color a resaltar un tono de naranja, ya que en temas de deporte, se lleva mucho y es un color muy indicado para ello, debido a que transmite alegria, fuerza, frescor, tal como lo describo es perfecto como color ideal para una página de deporte. Los demas colores de la paleta, son colores semejantes al blanco y negro y un color gris ceniza, que le dan un toque minimalista y elegante a la pagina web.
+
 https://drive.google.com/file/d/1yyZmamrc-LG5Xz46LCwR76ybdVVOfA8Y/view?usp=sharing
 
 #### Logo de la aplicacion
@@ -85,5 +87,12 @@ https://www.canva.com/design/DAE-4WggueA/GWD-nWkGKMQDT99KqDxwyg/view?utm_content
 ### IMPLEMENTACION
 .
 #### Aspectos mas relevantes
+Los aspectos mas relevantes, a mi parecer son: la utilizacion de AJAX, JQUERY, una API con PHP, la encriptacion de las contraseñas y el requerimiento de el inicio de la sesion para poder acceder con PHP también, la subida de imagenes al servidor, validando que sean archivos de imagen, entre otros ...
 
-
+### FUTUROS AVANCES EN EL TRABAJO
+- La creacion de tablas, mejorarla de forma que sea mas visible los ejercicios y verlo en forma de tabla, tambien podemos decir que podriamos incluir un observador de tablas para tenerlas en grande o se amplie.
+- Crear apartados como por ejemplo: nuticionamiento deportivo, entrenadores personales, añadir plataformas de pago, etc...
+- Incluir más herramientas deportivas y dividirlas en secciones.
+- Hacer que los ejercicios del cuerpo humano vengan directamente de la base de datos y terminar de completar con mas ejercicios.
+- Añadir temas de posicionamiento en la web, publicidad de forma controlada en x apartados (Maneras de monetizar de forma pasiva)
+- Crear cuentas de redes sociales, para el crecimiento de la pagina.
