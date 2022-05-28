@@ -6,6 +6,11 @@
     $correo = $_POST['correo'];
     $usuario = $_POST['usuario'];
     $contraseña = $_POST['contra'];
+    $peso=$_POST['peso'];
+    $altura=$_POST['altura'];
+
+    //CIFRADO DE LA CONTRASEÑA
+    $contraseña_cifrada=password_hash($contraseña, PASSWORD_DEFAULT, array("cost"=>12));
 
 
 
@@ -27,7 +32,7 @@
     mysqli_set_charset($conexion, "utf8");
 
     //CONSULTA SQL A REALIZAR
-    $consulta = "INSERT INTO usuario(nombre, apellidos, fechaNac, peso, altura, correo, usuario, contraseña, imagen) VALUES ('$nombreUsuario','$apellidos','$fechaNaccimiento',0,0,'$correo','$usuario','$contraseña','NULL')";
+    $consulta = "INSERT INTO usuario(nombre, apellidos, fechaNac, peso, altura, correo, usuario, contraseña, imagen) VALUES ('$nombreUsuario','$apellidos','$fechaNaccimiento','$peso','$altura','$correo','$usuario','$contraseña_cifrada','NULL')";
 
     //RESULTADO SOBRE LA CONEXION A LA BASE DE DATOS INDICADA
     $resultado = mysqli_query($conexion, $consulta);

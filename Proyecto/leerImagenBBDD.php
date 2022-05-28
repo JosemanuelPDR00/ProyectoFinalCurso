@@ -22,7 +22,7 @@
     mysqli_set_charset($conexion, "utf8");
 
     $consulta="SELECT imagen FROM usuario WHERE usuario='".$_SESSION['usuarioRegistrado']."'";
-
+    
     $resultado=mysqli_query($conexion,$consulta);
 
     while($fila = mysqli_fetch_array($resultado)){
