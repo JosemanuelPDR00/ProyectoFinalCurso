@@ -9,6 +9,13 @@ html{
     font-family: 'Exo', sans-serif;
 }
 
+body{
+    background: url(../img/fondoBody.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #barraSuperior{
     background-color: rgb(32, 32, 32);
     width: 100vw;
@@ -42,9 +49,9 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 10vh;
-    height: 10vh;
-    margin-left: 3vw;
+    width: 7vh;
+    height: 7vh;
+    margin: 2.5vw 6vw 2.5vw 6vw;
 }
 
 .perfil{
@@ -152,6 +159,7 @@ SIMPLEMENTE ESTA DE FONDO.*/
     font-size: 1.5em;
     border: 2px solid whitesmoke;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -222,9 +230,9 @@ SIMPLEMENTE ESTA DE FONDO.*/
     height: 5vh;
     margin: 3vh 40vw;
     border-radius: 10px;
-    border: 2px solid rgb(32, 32, 32);
+    border: 2px solid whitesmoke;
     font-family: 'Black Ops One', cursive;
-    font-size: x-large;
+    font-size: large;
 }
 
 /*--- CRONOMETRO ----*/
@@ -449,11 +457,12 @@ SIMPLEMENTE ESTA DE FONDO.*/
     background-color: #a6a6a6;
     border-radius: 0 0 10px 10px;
     padding: 5px;
-    text-align: justify;
+    text-align: left;
     height: 10vh;
     min-height: 10vh;
     width: 50vw;
     font-size: 85%;
+    overflow-y:scroll;
 }
 
 .botonApartado{
@@ -595,8 +604,10 @@ a{
 
 .descripcionInfoTabla{
     word-wrap: break-word;
+    overflow-y: scroll;
     max-width: 95%;
-    margin: 0 2.5% 2vh 2.5%
+    margin: 0 2.5% 2vh 2.5%;
+    padding: 5px;
 }
 .contenedorPaginacion{
     background-color: rgb(32, 32, 32);
@@ -689,6 +700,7 @@ a{
     flex-direction: row;
     justify-content: space-around;
     width: 70%;
+    color: whitesmoke;
 }
 
 .contenedorPerfilNombre{
@@ -773,6 +785,7 @@ a{
 }
 
 .contenedorFormulario{
+    background: -moz-linear-gradient(rgb(238, 119, 34),whitesmoke,#EE7722);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -844,7 +857,7 @@ a{
 }
 
 .boton{
-    background-color: #f49336;
+    background-color: #EE7722;
     border-radius: 10px;
     border: 1px solid black;
     display: flex;
@@ -854,11 +867,12 @@ a{
     height: 3vh;
     margin: 0 5% 0 5%;
     font-weight: 400;
-    font-size: x-large;
+    font-size: large;
     font-family: 'Black Ops One', cursive;
 }
 /*ABAJO*/ 
 .botonRegistro{
+    width: 75%;
     text-align: center;
     font-size: medium;
 }
@@ -885,6 +899,13 @@ a{
 
     html{
         overflow-x:hidden;
+    }
+
+    .logo{
+        margin: 0;
+        margin-left: 2vw;
+        width: 10vh;
+        height: 10vh;
     }
 
     /* BARRA DE NAVEGACION Y MENU HAMBURGUESA */
@@ -918,7 +939,7 @@ a{
 
     /* APARTADO PERFIL */
     #botonCierreSesion:hover{
-        border: 2px solid black;
+        border: 2px solid whitesmoke;
         color: black;
     }
 
@@ -940,7 +961,7 @@ a{
     .titulo{
         background-color: rgb(32, 32, 32);
     }
-    /*ABAJO*/
+    
     .boton{
         font-size:large;
 

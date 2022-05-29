@@ -32,9 +32,7 @@
                         <div class="descripcionApartado">Crea tus tablas de entrenamientos, tendrás la opcion de realizar tu tabla de forma personalizada.</div>
                         <div class="botonApartado" onclick="meVoyATablas()">IR</div>
                     </div>
-                    <div class="imagenApartado imagenApartado2">
-                        imagen
-                    </div>
+                    <div class="imagenApartado imagenApartado2"></div>
                 </div>
             </div>
 
