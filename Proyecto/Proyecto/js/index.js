@@ -121,6 +121,21 @@ function CalcularKG(){
 }
 
 
+/*-----------CALCULAR IBM--------*/
+function CalcularIBM(){
+    //valor recogido
+    peso = $('#pesoIBM').val();
+    altura = $('#alturaIBM').val();
+
+    $.ajax({
+        url: './rapidapi.php',
+        type: 'post',
+        data: {valor1:peso, valor2:altura},
+        success: function(respuesta3){
+            $('#resultadoIBM').html(respuesta3);
+        }
+    })
+}
 
 //------------------------------------ FUNCIONES DEL CUERPO HUMANO ------------------------------
 function mostrar(){

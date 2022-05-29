@@ -13,7 +13,7 @@
         $db->exec("SET CHARACTER SET utf8");
         
         //INSTRUCCION PREPARADA SQL
-        $sql="SELECT peso,altura FROM usuario WHERE USUARIO = ?";
+        $sql="SELECT peso,altura FROM usuario WHERE USUARIO = (SELECT usuario FROM usuario WHERE USUARIO = ?)";
         
         //PREPARACION DE LA CONSULTA
         $resultado=$db->prepare($sql);

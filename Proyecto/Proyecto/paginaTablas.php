@@ -9,7 +9,7 @@
                 TABLAS
             </div>
 
-            <a href="javascript:abrirVentana()"><div id="añadirNuevaTabla" onclick=""><i class="fa-solid fa-plus"></i></div></a>
+            <a href="javascript:abrirVentana()"><div id="añadirNuevaTabla"><i class="fa-solid fa-plus"></i></div></a>
 
 
             <div id="contenedorFlotante">
@@ -38,6 +38,19 @@
             <div class='contenedorVisualizarTablas'>
                 <?php
                     require_once("./consultaApartadoTablas.php");
+                ?>
+            </div>
+
+            <div class="contenedorPaginacion">
+                <?php
+                /*-------------------PAGINACION---------------------------------*/
+
+                    for($i=1;$i<=$total_paginas;$i++){
+
+                        echo "<a class='paginacionContenido' href='?pagina=" .$i."'>".$i."</a>  ";
+
+                    }
+                
                 ?>
             </div>
 

@@ -75,12 +75,4 @@
         die("Error: ".$e->getMessage());
     }
 
-    /*-------------------PAGINACION---------------------------------*/
-
-    for($i=1;$i<=$total_paginas;$i++){
-
-        echo "<a class='paginacion' href='?pagina=" .$i."'>".$i."</a>  ";
-
-    }
-
 ?>

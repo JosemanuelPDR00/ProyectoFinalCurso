@@ -27,6 +27,8 @@
                     <?php 
                         require_once("./consultaPerfil.php");
                     ?>
+
+                    
                 </div>
 
             </div>

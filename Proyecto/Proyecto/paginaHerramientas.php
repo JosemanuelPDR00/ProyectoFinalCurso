@@ -44,6 +44,18 @@
 
             </div>
 
+            <div class="contenedorIBM">
+                <form onsubmit="return false" class="formularioIBM">
+                    <h4 id="tituloIBM">Indice de Masa Corporal</h4>
+                    <p>Peso:</p>
+                    <input type="text" name="pesoIBM" id="pesoIBM" pattern="[0-9]{1,3}(\,[0-9]{1,2})?" placeholder="PESO EN KILOGRAMOS">
+                    <p>Altura:</p>
+                    <input type="text" name="alturaIBM" id="alturaIBM" pattern="[0-9]{1,3}(\,[0-9]{1,2})?" placeholder="ALTURA EN METROS">
+                    <input type="submit" value="Enviar" name="enviarIBM" class="botonCalculoAJAX" onclick="CalcularIBM()">
+                </form>
+                <div id="resultadoIBM">0</div>
+            </div>
+
         </div>
 
 <?php
