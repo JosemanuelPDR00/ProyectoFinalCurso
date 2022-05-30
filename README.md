@@ -98,7 +98,7 @@ https://drive.google.com/file/d/1bSevG7VjI3UUxI5xZ7DSNxtm9WUVn2Ow/view?usp=shari
 Los aspectos mas relevantes, a mi parecer son: la utilizacion de AJAX, JQUERY, una API con PHP, la encriptacion de las contraseñas y el requerimiento de el inicio de la sesion para poder acceder con PHP también, la subida de imagenes al servidor, validando que sean archivos de imagen, entre otros ...
 
 ### Video con el funcionamiento de la pagina
-
+https://drive.google.com/file/d/1IXUw2cZr_VnODhsyMAqk5clA4mFKfeNz/view?usp=sharing
 
 ### FUTUROS AVANCES EN EL TRABAJO
 - La creacion de tablas, mejorarla de forma que sea mas visible los ejercicios y verlo en forma de tabla, tambien podemos decir que podriamos incluir un observador de tablas para tenerlas en grande o se amplie.
