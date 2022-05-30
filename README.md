@@ -84,10 +84,21 @@ https://drive.google.com/file/d/1UU-zm_g7ssOSk5vCXc06d0ILnCnXQoU-/view?usp=shari
 https://www.canva.com/design/DAE-4WggueA/GWD-nWkGKMQDT99KqDxwyg/view?utm_content=DAE-4WggueA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
+### SERVIDOR
+Los comandos realizados en el servidor, han diso los siguientes, lo dejo en el enlace.
+https://drive.google.com/file/d/1cjfhoXLLLtdtgplStA9mK2oRP08lWHNl/view?usp=sharing
+
+Aqui os dejo una prueba de que ha llegado a funcionar correctamente y lo cargamos en el navegador desde el servidor apache configurado por mi.
+https://drive.google.com/file/d/1bSevG7VjI3UUxI5xZ7DSNxtm9WUVn2Ow/view?usp=sharing
+
+
 ### IMPLEMENTACION
 .
 #### Aspectos mas relevantes
 Los aspectos mas relevantes, a mi parecer son: la utilizacion de AJAX, JQUERY, una API con PHP, la encriptacion de las contraseñas y el requerimiento de el inicio de la sesion para poder acceder con PHP también, la subida de imagenes al servidor, validando que sean archivos de imagen, entre otros ...
+
+### Video con el funcionamiento de la pagina
+
 
 ### FUTUROS AVANCES EN EL TRABAJO
 - La creacion de tablas, mejorarla de forma que sea mas visible los ejercicios y verlo en forma de tabla, tambien podemos decir que podriamos incluir un observador de tablas para tenerlas en grande o se amplie.
