@@ -22,7 +22,7 @@
         <div class="contenedorFormulario">
             <h1 class="titulo tituloRegistro">REGISTRO</h1>
             <div class="zonaFormulario zonaFormularioRegistro">
-                <form action="./registroLogica.php" method="post" enctype="multipart/form-data" class="formulario">
+                <form action="../registroLogica.php" method="post" enctype="multipart/form-data" class="formulario">
                     <div class="contenedorAcogedor">
                         <div class="logoAcceso"></div>
                         <input type="text" name="nombre" id="nombre" placeholder="NOMBRE COMPLETO" class="input" pattern="[A-Z a-z]{2,30}" required maxlength="30"><!-- letras minusculas, mayusculas o espacio minimo 2 veces y maximo 30 -->

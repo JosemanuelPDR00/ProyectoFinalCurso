@@ -675,6 +675,7 @@ a{
 
 .nombreEjercicio{
     text-align: center;
+    color: whitesmoke;
 }
 
 /*---------------- APARTADO DE PERFIL ------------------*/
@@ -714,11 +715,10 @@ a{
     font-weight: 900;
     font-size: x-large;
     text-align: center;
-    margin-bottom: 1vh;
+
 }
 
 .datosPerfil{
-    width: 30px;
     text-align: center;
     width: 100%;
 }
@@ -747,7 +747,7 @@ a{
     font-family:'Black Ops One', cursive;
     font-size: large;
     color: rgb(32, 32, 32);
-    margin-top: 3vh;
+    margin: 5vh 0 7vh 0;
     width: 40vw;
     height: 5vh;
 }
